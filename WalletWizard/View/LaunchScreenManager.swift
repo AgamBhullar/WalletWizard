@@ -1,18 +1,28 @@
 //
 //  LaunchScreenManager.swift
 //  WalletWizard
-//
 //  Created by Agam Bhullar on 1/17/24.
 //
 
-import SwiftUI
+import Foundation
 
-struct LaunchScreenManager: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+enum LaunchScreenPhase {
+    case first
+    case second
+    case completed
 }
 
-#Preview {
-    LaunchScreenManager()
+final class LaunchScreenManager: ObservableObject {
+    
+    @Published private(set) var state: LaunchScreenPhase = .first
+    
+    func dismiss() {
+        
+        self.state = .second
+
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            
+            self.state = .completed
+        }
+    }
 }

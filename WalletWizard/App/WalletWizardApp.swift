@@ -1,17 +1,42 @@
-//
-//  WalletWizardApp.swift
-//  WalletWizard
-//
-//  Created by Agam Bhullar on 1/14/24.
-//
-
 import SwiftUI
+import PhoneNumberKit
 
 @main
 struct WalletWizardApp: App {
+    init() {
+        Api.shared.appId = "QSQEo5xSmENL"
+    }
+
+    @StateObject var launchScreenManager = LaunchScreenManager()
+    @StateObject var userModel = UserModel()
+    
+    
     var body: some Scene {
         WindowGroup {
-            LoginView()
+            Group {
+                if let _ = userModel.authToken {
+                    if userModel.currentUser != nil {
+                        HomeView()
+                            .environmentObject(userModel)
+                    } else {
+                        LoadingView()
+                            .environmentObject(userModel)
+                        
+                    }
+                } else {
+                    ZStack {
+                        LoginView()
+                            .environmentObject(userModel)
+                        if launchScreenManager.state != .completed {
+                            LaunchScreenView()
+                        }
+                    }
+                    .environmentObject(launchScreenManager)
+                }
+            }
         }
     }
 }
+
+
+

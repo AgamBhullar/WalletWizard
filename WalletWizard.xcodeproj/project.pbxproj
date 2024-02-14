@@ -7,18 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA4502212B7B129600627B4A /* CustomTextfield2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4502202B7B129600627B4A /* CustomTextfield2.swift */; };
+		CA533D932B758597005BD062 /* Background2.png in Resources */ = {isa = PBXBuildFile; fileRef = CA533D922B758596005BD062 /* Background2.png */; };
+		CA533D9B2B75A774005BD062 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA533D9A2B75A774005BD062 /* CustomTextField.swift */; };
 		CA623A322B54EA5C0009CDEB /* WalletWizardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA623A312B54EA5C0009CDEB /* WalletWizardApp.swift */; };
-		CA623A342B54EA5C0009CDEB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA623A332B54EA5C0009CDEB /* ContentView.swift */; };
-		CA623A362B54EA5D0009CDEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA623A352B54EA5D0009CDEB /* Assets.xcassets */; };
 		CA623A392B54EA5D0009CDEB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA623A382B54EA5D0009CDEB /* Preview Assets.xcassets */; };
+		CA623A452B54ECDD0009CDEB /* PhoneNumberKit in Frameworks */ = {isa = PBXBuildFile; productRef = CA623A442B54ECDD0009CDEB /* PhoneNumberKit */; };
+		CA623A472B54ECDD0009CDEB /* PhoneNumberKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = CA623A462B54ECDD0009CDEB /* PhoneNumberKit-Dynamic */; };
+		CA623A492B54ECDD0009CDEB /* PhoneNumberKit-Static in Frameworks */ = {isa = PBXBuildFile; productRef = CA623A482B54ECDD0009CDEB /* PhoneNumberKit-Static */; };
+		CA623A772B572AF20009CDEB /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA623A762B572AF20009CDEB /* LaunchScreenView.swift */; };
+		CA623A7B2B58582B0009CDEB /* LaunchScreenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA623A7A2B58582B0009CDEB /* LaunchScreenManager.swift */; };
+		CA623A7D2B5890E70009CDEB /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CA623A7C2B5890E70009CDEB /* logo.png */; };
+		CA623A802B58958F0009CDEB /* Salsa-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA623A7F2B58958F0009CDEB /* Salsa-Regular.ttf */; };
+		CA623A822B58A82A0009CDEB /* slogan.png in Resources */ = {isa = PBXBuildFile; fileRef = CA623A812B58A82A0009CDEB /* slogan.png */; };
+		CA623A842B59FB650009CDEB /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = CA623A832B59FB650009CDEB /* README.txt */; };
+		CA623A862B5F3B5F0009CDEB /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA623A852B5F3B5F0009CDEB /* LoginView.swift */; };
+		CA623A8A2B5F3ECA0009CDEB /* VerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA623A892B5F3ECA0009CDEB /* VerificationView.swift */; };
+		CA623A8C2B5F40AB0009CDEB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA623A8B2B5F40AB0009CDEB /* HomeView.swift */; };
+		CA623A8E2B5F9AD40009CDEB /* Api (4).swift in Sources */ = {isa = PBXBuildFile; fileRef = CA623A8D2B5F9AD40009CDEB /* Api (4).swift */; };
+		CA623A922B61ABE70009CDEB /* Frame.png in Resources */ = {isa = PBXBuildFile; fileRef = CA623A912B61ABE70009CDEB /* Frame.png */; };
+		CA623A952B6607E70009CDEB /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA623A942B6607E70009CDEB /* UserModel.swift */; };
+		CA623A972B6607FD0009CDEB /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA623A962B6607FD0009CDEB /* LoadingView.swift */; };
+		CA623A992B69AF770009CDEB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA623A982B69AF770009CDEB /* SettingsView.swift */; };
+		CA9412802B6AE8F6005EA156 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA94127F2B6AE8F6005EA156 /* Assets.xcassets */; };
+		CA9412862B6AEA3A005EA156 /* User.png in Resources */ = {isa = PBXBuildFile; fileRef = CA9412852B6AEA3A005EA156 /* User.png */; };
+		CA94128F2B742F02005EA156 /* AddAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA94128E2B742F02005EA156 /* AddAccountView.swift */; };
+		CA9412932B74329E005EA156 /* AccountDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9412922B74329E005EA156 /* AccountDetailView.swift */; };
+		CA9412952B743A5F005EA156 /* TransferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9412942B743A5F005EA156 /* TransferView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA4502202B7B129600627B4A /* CustomTextfield2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextfield2.swift; sourceTree = "<group>"; };
+		CA533D922B758596005BD062 /* Background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background2.png; sourceTree = "<group>"; };
+		CA533D9A2B75A774005BD062 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		CA623A2E2B54EA5C0009CDEB /* WalletWizard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalletWizard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA623A312B54EA5C0009CDEB /* WalletWizardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletWizardApp.swift; sourceTree = "<group>"; };
-		CA623A332B54EA5C0009CDEB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CA623A352B54EA5D0009CDEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA623A382B54EA5D0009CDEB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA623A752B5726840009CDEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CA623A762B572AF20009CDEB /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
+		CA623A7A2B58582B0009CDEB /* LaunchScreenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenManager.swift; sourceTree = "<group>"; };
+		CA623A7C2B5890E70009CDEB /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		CA623A7F2B58958F0009CDEB /* Salsa-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Salsa-Regular.ttf"; sourceTree = "<group>"; };
+		CA623A812B58A82A0009CDEB /* slogan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slogan.png; sourceTree = "<group>"; };
+		CA623A832B59FB650009CDEB /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		CA623A852B5F3B5F0009CDEB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CA623A892B5F3ECA0009CDEB /* VerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationView.swift; sourceTree = "<group>"; };
+		CA623A8B2B5F40AB0009CDEB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CA623A8D2B5F9AD40009CDEB /* Api (4).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Api (4).swift"; sourceTree = "<group>"; };
+		CA623A912B61ABE70009CDEB /* Frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Frame.png; sourceTree = "<group>"; };
+		CA623A942B6607E70009CDEB /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		CA623A962B6607FD0009CDEB /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		CA623A982B69AF770009CDEB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CA94127F2B6AE8F6005EA156 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA9412852B6AEA3A005EA156 /* User.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = User.png; sourceTree = "<group>"; };
+		CA94128E2B742F02005EA156 /* AddAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccountView.swift; sourceTree = "<group>"; };
+		CA9412922B74329E005EA156 /* AccountDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailView.swift; sourceTree = "<group>"; };
+		CA9412942B743A5F005EA156 /* TransferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +70,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA623A452B54ECDD0009CDEB /* PhoneNumberKit in Frameworks */,
+				CA623A472B54ECDD0009CDEB /* PhoneNumberKit-Dynamic in Frameworks */,
+				CA623A492B54ECDD0009CDEB /* PhoneNumberKit-Static in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,6 +82,7 @@
 		CA623A252B54EA5C0009CDEB = {
 			isa = PBXGroup;
 			children = (
+				CA623A832B59FB650009CDEB /* README.txt */,
 				CA623A302B54EA5C0009CDEB /* WalletWizard */,
 				CA623A2F2B54EA5C0009CDEB /* Products */,
 			);
@@ -51,10 +99,15 @@
 		CA623A302B54EA5C0009CDEB /* WalletWizard */ = {
 			isa = PBXGroup;
 			children = (
-				CA623A312B54EA5C0009CDEB /* WalletWizardApp.swift */,
-				CA623A332B54EA5C0009CDEB /* ContentView.swift */,
-				CA623A352B54EA5D0009CDEB /* Assets.xcassets */,
+				CA623A932B6607D30009CDEB /* Model */,
+				CA623A402B54EA870009CDEB /* App */,
+				CA623A3F2B54EA720009CDEB /* View */,
 				CA623A372B54EA5D0009CDEB /* Preview Content */,
+				CA623A722B571E620009CDEB /* Assets */,
+				CA94127F2B6AE8F6005EA156 /* Assets.xcassets */,
+				CA623A7E2B58957E0009CDEB /* Font */,
+				CA623A752B5726840009CDEB /* Info.plist */,
+				CA623A8D2B5F9AD40009CDEB /* Api (4).swift */,
 			);
 			path = WalletWizard;
 			sourceTree = "<group>";
@@ -65,6 +118,61 @@
 				CA623A382B54EA5D0009CDEB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CA623A3F2B54EA720009CDEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA623A852B5F3B5F0009CDEB /* LoginView.swift */,
+				CA623A762B572AF20009CDEB /* LaunchScreenView.swift */,
+				CA623A7A2B58582B0009CDEB /* LaunchScreenManager.swift */,
+				CA623A8B2B5F40AB0009CDEB /* HomeView.swift */,
+				CA623A962B6607FD0009CDEB /* LoadingView.swift */,
+				CA623A892B5F3ECA0009CDEB /* VerificationView.swift */,
+				CA623A982B69AF770009CDEB /* SettingsView.swift */,
+				CA94128E2B742F02005EA156 /* AddAccountView.swift */,
+				CA9412922B74329E005EA156 /* AccountDetailView.swift */,
+				CA9412942B743A5F005EA156 /* TransferView.swift */,
+				CA533D9A2B75A774005BD062 /* CustomTextField.swift */,
+				CA4502202B7B129600627B4A /* CustomTextfield2.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CA623A402B54EA870009CDEB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CA623A312B54EA5C0009CDEB /* WalletWizardApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CA623A722B571E620009CDEB /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				CA9412852B6AEA3A005EA156 /* User.png */,
+				CA533D922B758596005BD062 /* Background2.png */,
+				CA623A912B61ABE70009CDEB /* Frame.png */,
+				CA623A7C2B5890E70009CDEB /* logo.png */,
+				CA623A812B58A82A0009CDEB /* slogan.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		CA623A7E2B58957E0009CDEB /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				CA623A7F2B58958F0009CDEB /* Salsa-Regular.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		CA623A932B6607D30009CDEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA623A942B6607E70009CDEB /* UserModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +191,11 @@
 			dependencies = (
 			);
 			name = WalletWizard;
+			packageProductDependencies = (
+				CA623A442B54ECDD0009CDEB /* PhoneNumberKit */,
+				CA623A462B54ECDD0009CDEB /* PhoneNumberKit-Dynamic */,
+				CA623A482B54ECDD0009CDEB /* PhoneNumberKit-Static */,
+			);
 			productName = WalletWizard;
 			productReference = CA623A2E2B54EA5C0009CDEB /* WalletWizard.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +224,9 @@
 				Base,
 			);
 			mainGroup = CA623A252B54EA5C0009CDEB;
+			packageReferences = (
+				CA623A432B54ECDD0009CDEB /* XCRemoteSwiftPackageReference "PhoneNumberKit" */,
+			);
 			productRefGroup = CA623A2F2B54EA5C0009CDEB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +241,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA533D932B758597005BD062 /* Background2.png in Resources */,
+				CA623A922B61ABE70009CDEB /* Frame.png in Resources */,
+				CA623A802B58958F0009CDEB /* Salsa-Regular.ttf in Resources */,
+				CA9412862B6AEA3A005EA156 /* User.png in Resources */,
 				CA623A392B54EA5D0009CDEB /* Preview Assets.xcassets in Resources */,
-				CA623A362B54EA5D0009CDEB /* Assets.xcassets in Resources */,
+				CA623A7D2B5890E70009CDEB /* logo.png in Resources */,
+				CA623A842B59FB650009CDEB /* README.txt in Resources */,
+				CA9412802B6AE8F6005EA156 /* Assets.xcassets in Resources */,
+				CA623A822B58A82A0009CDEB /* slogan.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +260,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA623A342B54EA5C0009CDEB /* ContentView.swift in Sources */,
+				CA533D9B2B75A774005BD062 /* CustomTextField.swift in Sources */,
 				CA623A322B54EA5C0009CDEB /* WalletWizardApp.swift in Sources */,
+				CA623A8C2B5F40AB0009CDEB /* HomeView.swift in Sources */,
+				CA623A952B6607E70009CDEB /* UserModel.swift in Sources */,
+				CA623A8E2B5F9AD40009CDEB /* Api (4).swift in Sources */,
+				CA623A7B2B58582B0009CDEB /* LaunchScreenManager.swift in Sources */,
+				CA623A992B69AF770009CDEB /* SettingsView.swift in Sources */,
+				CA623A862B5F3B5F0009CDEB /* LoginView.swift in Sources */,
+				CA623A8A2B5F3ECA0009CDEB /* VerificationView.swift in Sources */,
+				CA623A772B572AF20009CDEB /* LaunchScreenView.swift in Sources */,
+				CA4502212B7B129600627B4A /* CustomTextfield2.swift in Sources */,
+				CA9412952B743A5F005EA156 /* TransferView.swift in Sources */,
+				CA9412932B74329E005EA156 /* AccountDetailView.swift in Sources */,
+				CA623A972B6607FD0009CDEB /* LoadingView.swift in Sources */,
+				CA94128F2B742F02005EA156 /* AddAccountView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,11 +408,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WalletWizard/Preview Content\"";
+				DEVELOPMENT_TEAM = 7UGX3MVTL4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WalletWizard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -300,11 +437,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WalletWizard/Preview Content\"";
+				DEVELOPMENT_TEAM = 7UGX3MVTL4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WalletWizard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -342,6 +480,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CA623A432B54ECDD0009CDEB /* XCRemoteSwiftPackageReference "PhoneNumberKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/marmelroy/PhoneNumberKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.7.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CA623A442B54ECDD0009CDEB /* PhoneNumberKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA623A432B54ECDD0009CDEB /* XCRemoteSwiftPackageReference "PhoneNumberKit" */;
+			productName = PhoneNumberKit;
+		};
+		CA623A462B54ECDD0009CDEB /* PhoneNumberKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA623A432B54ECDD0009CDEB /* XCRemoteSwiftPackageReference "PhoneNumberKit" */;
+			productName = "PhoneNumberKit-Dynamic";
+		};
+		CA623A482B54ECDD0009CDEB /* PhoneNumberKit-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA623A432B54ECDD0009CDEB /* XCRemoteSwiftPackageReference "PhoneNumberKit" */;
+			productName = "PhoneNumberKit-Static";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CA623A262B54EA5C0009CDEB /* Project object */;
 }
