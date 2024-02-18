@@ -49,5 +49,5 @@ Leverages NavigationStack for seamless transitions between the Login, Verificati
 Ensures that users cannot navigate back to the loading screen after successful login.
 
  Developers Information
-- **Name**: [Agam Bhullar] [Harpreet Basota] [Arjun Takhar]
-- **Student ID**: [921637853] [920698495] [922019289]
+- **Name**: [Agam Bhullar] 
+- **Student ID**: [921637853] 
